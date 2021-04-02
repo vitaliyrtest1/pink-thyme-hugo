@@ -59,7 +59,11 @@
 				<h1 class="hero__title">{{ $section.title }}</h1>
 				{{ end }}
 				{{ if $section.subtitle }}
-				<p class="hero__subtitle">{{ $section.subtitle }}</p>
+				<p class="hero__subtitle">
+                    before
+                    {{ $section.subtitle }}
+                    after
+                </p>
 				{{ end }}
 				{{ if $section.content }}
 				<div class="hero__copy">
