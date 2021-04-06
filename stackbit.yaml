@@ -348,6 +348,10 @@ models:
         label: Title
         description: The title of the page
         required: true
+      - type: string
+        name: test
+        label: Test
+        description: The test
       - type: model
         name: seo
         models:
