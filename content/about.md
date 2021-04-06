@@ -1,5 +1,6 @@
 ---
 title: About
+test: why not
 seo:
   title: About
   description: This is the about us page
